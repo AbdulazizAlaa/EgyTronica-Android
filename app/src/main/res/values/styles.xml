@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/gray_1</item>
+        <item name="colorControlActivated">@color/green_1</item>
+        <item name="colorControlHighlight">@color/green_1</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/gray_1</item>
+        <item name="colorControlActivated">@color/green_1</item>
+        <item name="colorControlHighlight">@color/green_1</item>
+    </style>
+
+    <style name="TextErrorAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextHintAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextInputHelperLayout" parent="TextErrorAppearance">
+        <item name="android:textColor">@color/gray_2</item>
+    </style>
+
+
+</resources>

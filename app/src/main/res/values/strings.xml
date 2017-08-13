@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">EgyTronica</string>
+
+    <string name="landing_intro_text">
+        <![CDATA[
+        Sign up with your email and start <br>
+        debugging right now
+        ]]>
+    </string>
+    <string name="landing_intro_desc_text">
+        <![CDATA[
+        <font color=\"#003781\">Not Working? <br>
+        Need to keep track? <br></font>
+        <font color=\"#00bcd4\">Add your Boards in <br>
+        Seconds!</font>
+        ]]>
+    </string>
+    <string name="landing_sign_up_button">Start debugging, sign up</string>
+    <string name="landing_have_account_button">I have an account</string>
+    <string name="landing_have_account">I have an account</string>
+    <string name="landing_skip">Skip</string>
+
+    <string name="on_boarding_full_name">Your full name</string>
+    <string name="on_boarding_email">Email</string>
+    <string name="on_boarding_password">Create a password</string>
+    <string name="on_boarding_btn">Confirm and go</string>
+    <string name="on_boarding_phone_number">Phone number</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Your password</string>
+    <string name="login_desc">
+        <![CDATA[
+        Enter Email and Password <br>
+        and start debugging
+        ]]>
+    </string>
+    <string name="login_login_btn">Login</string>
+
+    <string name="mobile_pin_btn">Confirm and go</string>
+    <string name="mobile_pin_resend">Resend message</string>
+    <string name="mobile_pin_desc">
+        <![CDATA[
+        We\'ve sent you a SMS message.<br>
+        Type in the mobile PIN you received.
+        ]]>
+    </string>
+
+    <string name="members_dialog_email">Email</string>
+    <string name="members_dialog_btn">Confirm</string>
+
+    <string name="components_dialog_email">Component Name</string>
+    <string name="components_dialog_nodes">Between Nodes</string>
+    <string name="components_dialog_btn">Confirm</string>
+
+    <string name="create_board_name_ed">Choose a name</string>
+    <string name="create_board_code_ed">Enter Board Code</string>
+    <string name="create_board_refresh_time_ed">Enter refresh time period</string>
+    <string name="create_board_last_maintenance_ed">Enter Last Maintanence Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

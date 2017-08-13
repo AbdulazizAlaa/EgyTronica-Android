@@ -1,0 +1,36 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    tools:context="com.abdulaziz.egytronica.ui.board.view.components.ComponentsFragment">
+
+    <!-- List start -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/components_swipe_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/components_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!-- List end -->
+
+    <!-- floating Action Button -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/components_fragment_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="40dip"
+        app:backgroundTint="#3c8b55"
+        app:rippleColor="#7dc795"
+        android:src="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>

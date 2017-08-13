@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/component_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/component_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="M Component"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blue_1"
+                    android:textSize="@dimen/label_l_med_f"/>
+
+                <ImageView
+                    android:id="@+id/component_status_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:src="@drawable/board_status_shape_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dip"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/component_nodes_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="nodes: (2-1)"
+                    android:textAllCaps="false"
+                    android:textColor="#77000000"
+                    android:textSize="@dimen/label_s_med_f"/>
+
+                <ImageView
+                    android:id="@+id/component_type_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_weight="2"
+                    android:src="@drawable/capacitor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"></LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#3d000000"></LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/component_pause_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="5dip"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/component_pause_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pause "/>
+
+                    <EditText
+                        android:id="@+id/component_pause_time_ed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dip"
+                        android:hint="Pause Time"
+                        android:textSize="15dip"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:visibility="gone"/>
+                    <Button
+                        android:id="@+id/component_pause_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:visibility="gone"
+                        android:text="Pause"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/component_pause_desc_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="Use 0 to indicate unlimited time"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#3d000000"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Status:"
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Heat Loss: "
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="#000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Effect on Power: "
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/component_status_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Stable"
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="@color/gray_t" />
+
+                    <TextView
+                        android:id="@+id/component_heat_loss_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="30 °C"
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="@color/gray_t" />
+
+                    <TextView
+                        android:id="@+id/component_effect_on_power_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text=".5 mw"
+                        android:textSize="@dimen/label_s_reg_f"
+                        android:textColor="@color/gray_t" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

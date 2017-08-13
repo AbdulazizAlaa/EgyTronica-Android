@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255003340022",
+    "firebase_url": "https://egytronica-c2f0f.firebaseio.com",
+    "project_id": "egytronica-c2f0f",
+    "storage_bucket": "egytronica-c2f0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255003340022:android:ae1bf14de391c288",
+        "android_client_info": {
+          "package_name": "com.abdulaziz.egytronica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255003340022-6mt9n60ivhrpmaa4s7790aicov4ruo1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulaziz.egytronica",
+            "certificate_hash": "f54a012a56eb810e3cb517996cbcf29428479153"
+          }
+        },
+        {
+          "client_id": "255003340022-n5o41orl63ftjcpuvka1ivvbs261mfb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0fykMGyqbWyf8DwEqklAEUAz2rzKicwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255003340022-n5o41orl63ftjcpuvka1ivvbs261mfb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

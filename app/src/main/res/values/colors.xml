@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#053296</color>
+    <color name="colorAccent">#00bcd4</color>
+
+    <color name="gray_2">#888888</color>
+
+    <color name="blue_1">#053296</color>
+    <color name="green_1">#00bcd4</color>
+    <color name="green_2">#18ffff</color>
+    <color name="gray_1">#ddebf9</color>
+    <color name="red_1">#e5707b</color>
+
+    <color name="blue_t">#003781</color>
+    <color name="blue_t_1">#58709f</color>
+    <color name="gray_t">#8d9ec6</color>
+    <color name="red_t">#ff7e87</color>
+    <color name="green_t">#17cda0</color>
+
+    <color name="white">#FFF</color>
+
+    <color name="pager_bullet_active">#17cda0</color>
+    <color name="pager_bullet_inactive">#8d9ec6</color>
+
+    <color name="status_green_s">#2aff0e</color>
+    <color name="status_green_c">#06ff51</color>
+    <color name="status_green_e">#01ff91</color>
+
+    <color name="status_gray_s">#d1d1d1</color>
+    <color name="status_gray_c">#bfd6c9</color>
+    <color name="status_gray_e">#94a69a</color>
+
+    <color name="status_orange_s">#ff6200</color>
+    <color name="status_orange_c">#ff7b29</color>
+    <color name="status_orange_e">#ffa04c</color>
+
+    <color name="status_red_s">#ff1a01</color>
+    <color name="status_red_c">#ff4a3a</color>
+    <color name="status_red_e">#ff6251</color>
+
+    <color name="background">#FFF</color>
+
+</resources>

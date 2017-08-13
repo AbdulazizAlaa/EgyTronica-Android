@@ -1,0 +1,71 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abdulaziz.egytronica.ui.home.member_boards.MemberBoardsFragment">
+
+    <!-- Toolbar start -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/members_boards_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Members Boards"
+                    android:textSize="@dimen/label_l_med_f"
+                    android:textColor="#fff"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="right"
+                    android:layout_weight="1">
+                    <Button
+                        android:id="@+id/members_boards_logout_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:text="Logout"
+                        android:textColor="#FFF"
+                        android:textSize="@dimen/label_l_med_f"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <!-- Toolbar end -->
+
+    <!-- List start -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/members_boards_swipe_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/members_boards_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!-- List end -->
+
+</android.support.design.widget.CoordinatorLayout>

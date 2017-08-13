@@ -1,0 +1,333 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_view"
+    tools:context="com.abdulaziz.egytronica.ui.board.view.details.DetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- main card with card name and advice -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/details_fragment_main_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/details_fragment_board_name_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dip"
+                            android:paddingTop="5dip"
+                            android:text="Board Name"
+                            android:textSize="@dimen/label_l_med_f"
+                            android:textColor="@color/blue_1" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_advice_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dip"
+                            android:paddingBottom="10dip"
+                            android:text="All Fine!"
+                            android:textSize="@dimen/label_s_med_f"
+                            android:textColor="@color/green_t"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/details_fragment_status_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:src="@drawable/board_status_shape_gray"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- details card view -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/details_fragment_details_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Status:"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Output Efficiency: "
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Temp: "
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Humidity: "
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Running Time: "
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Refresh Time: "
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Last Maintenance:"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/details_fragment_board_status_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Stable"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_out_efficiency_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="80%"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_temp_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="30 °C"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_humidity_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="17%"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_running_time_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="200 hours"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_refresh_time_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="5 min"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                        <TextView
+                            android:id="@+id/details_fragment_board_maintainance_date_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="17/1/2017"
+                            android:textSize="@dimen/label_s_reg_f"
+                            android:textColor="@color/gray_t" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- members card eng -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/details_fragment_members_eng_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dip"
+                            android:text="Engineers"
+                            android:textSize="@dimen/label_l_med_f"
+                            android:textColor="#000"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/details_fragment_members_eng_add_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="#a6000000"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/label_l_med_f"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#3d000000"></LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/details_fragment_members_eng_recycler_view"
+                        android:padding="15dip"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- members card tech -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/details_fragment_members_tech_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                app:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="10dip"
+                            android:text="Technicians"
+                            android:textSize="@dimen/label_l_med_f"
+                            android:textColor="#000"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/details_fragment_members_tech_add_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="#a6000000"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/label_l_med_f"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="#3d000000"></LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/details_fragment_members_tech_recycler_view"
+                        android:padding="15dip"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- floating Action Button -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/details_fragment_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="40dip"
+        app:backgroundTint="#3c8b55"
+        app:rippleColor="#7dc795"
+        android:src="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>

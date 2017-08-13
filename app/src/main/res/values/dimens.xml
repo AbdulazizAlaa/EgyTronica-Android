@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dip</dimen>
+    <dimen name="activity_vertical_margin">16dip</dimen>
+
+    <dimen name="register_side_margin">10dip</dimen>
+    <dimen name="register_bottom_margin">2dip</dimen>
+
+    <dimen name="generic_btn_height">56dip</dimen>
+    <dimen name="generic_btn_width">200dip</dimen>
+    <dimen name="generic_btn_bottom_margin">10dip</dimen>
+    <dimen name="generic_btn_top_margin">40dip</dimen>
+    <dimen name="generic_btn_side_margin">60dip</dimen>
+
+    <dimen name="generic_ed_side_margin">16dip</dimen>
+    <dimen name="generic_ed_top_margin">2dip</dimen>
+    <dimen name="generic_ed_bottom_margin">2dip</dimen>
+
+    <dimen name="mobile_pin_iv_top_margin">30dip</dimen>
+    <dimen name="mobile_pin_desc_tv_top_margin">30dip</dimen>
+    <dimen name="mobile_pin_desc_tv_bottom_margin">30dip</dimen>
+    <dimen name="mobile_pin_click_tv_top_margin">25dip</dimen>
+    <dimen name="mobile_pin_click_tv_padding">15dip</dimen>
+    <dimen name="mobile_pin_user_tv_top_margin">10dip</dimen>
+    <dimen name="mobile_pin_user_tv_bottom_margin">20dip</dimen>
+    <dimen name="mobile_pin_forget_pin_tv_bottom_margin">15dip</dimen>
+
+    <dimen name="login_iv_bottom_margin">40dip</dimen>
+    <dimen name="login_iv_top_margin">30dip</dimen>
+    <dimen name="login_ed_bottom_margin">40dip</dimen>
+    <dimen name="login_ed_top_margin">30dip</dimen>
+    <dimen name="login_ed_side_margin">10dip</dimen>
+
+    <dimen name="on_boarding_iv_bottom_margin">40dip</dimen>
+    <dimen name="on_boarding_iv_top_margin">30dip</dimen>
+
+    <dimen name="members_dialog_tv_side_margin">10dip</dimen>
+    <dimen name="members_dialog_layout_margin">10dip</dimen>
+
+    <dimen name="app_bar_f">20dip</dimen>
+    <dimen name="title_0_f">45dip</dimen>
+    <dimen name="title_1_f">28dip</dimen>
+    <dimen name="title_2_f">20dip</dimen>
+    <dimen name="label_l_med_f">18dip</dimen>
+    <dimen name="label_l_reg_f">18dip</dimen>
+    <dimen name="label_s_med_f">16dip</dimen>
+    <dimen name="label_s_reg_f">16dip</dimen>
+    <dimen name="t_big_f">14dip</dimen>
+    <dimen name="t_small_f">12dip</dimen>
+
+    <dimen name="label_l_med_h">24dip</dimen>
+    <dimen name="label_l_reg_h">24dip</dimen>
+    <dimen name="label_s_med_h">20dip</dimen>
+    <dimen name="label_s_reg_h">24dip</dimen>
+    <dimen name="t_big_h">18dip</dimen>
+    <dimen name="t_small_h">16dip</dimen>
+
+</resources>

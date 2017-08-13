@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_item_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/news_item_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:paddingTop="5dip"
+            android:text="Title"
+            android:textSize="@dimen/label_l_med_f"
+            android:textColor="@color/blue_1" />
+
+        <TextView
+            android:id="@+id/news_item_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingBottom="10dip"
+            android:text="All Fine!"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="@dimen/label_s_med_f"
+            android:textColor="@color/green_t"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
